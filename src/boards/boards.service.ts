@@ -18,7 +18,7 @@ export class BoardsService {
             description: description,
             status: BoardStatus.public
         }
-        this.boards.push(board);
+        this.boards.push(board);//데이터 입력시 푸시하라 이말같은데..
         return board;
     }
 }
